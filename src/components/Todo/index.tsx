@@ -86,7 +86,7 @@ function Todo() {
             list?.map((item, idx) => {
               if (validFilter(item))
                 return (
-                  <ListOfActivity.Container>
+                  <ListOfActivity.Container key={idx}>
                     <ListOfActivity.CheckButton
                       checked={(e: MouseEvent<HTMLButtonElement>) =>
                         checked(e, idx)

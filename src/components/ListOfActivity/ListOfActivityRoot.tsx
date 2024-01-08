@@ -3,7 +3,7 @@ interface ListOfActivityRootProps {
   children: ReactNode;
 }
 function ListOfActivityRoot({ children }: ListOfActivityRootProps) {
-  return <div>{children}</div>;
+  return <div className="max-h-90 overflow-auto">{children}</div>;
 }
 
 export default ListOfActivityRoot;
