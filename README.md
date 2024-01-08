@@ -8,6 +8,7 @@ Este é um projeto frontend desenvolvido utilizando ReactJS, Vite e TypeScript, 
 
 ```bash
 git clone https://github.com/Niiickcm/FRONTEND_TESTE.git
+```
 
 Navegue até a pasta do projeto:
 cd FRONTEND_TESTE
@@ -15,18 +16,25 @@ cd FRONTEND_TESTE
 Instale as dependências utilizando Yarn ou npm:
 
 Com Yarn:
+```bash
 yarn install
-
+```
 Com npm:
+```bash
 npm install
+```
 
 Após a instalação das dependências, inicie o projeto:
 
 Com Yarn:
+```bash
 yarn dev
+```
 
 Com npm:
+```bash
 npm run dev
+```
 
 No console do VSCode ou terminal, será exibida a porta em que o projeto estará rodando. Copie essa porta e cole na URL do navegador para visualizar o projeto. Sera algo como http://localhost:3000.
 
